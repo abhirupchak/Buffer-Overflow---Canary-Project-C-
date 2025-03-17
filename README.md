@@ -1,6 +1,7 @@
-# Buffer Overflow Canary Project C++
+
+
 # Canary Measure for Buffer Overflow Protection
-# Canary Measure for Buffer Overflow Protection
+
 
 ## Introduction
 
