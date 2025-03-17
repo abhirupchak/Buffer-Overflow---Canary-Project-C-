@@ -55,4 +55,6 @@ While canaries help, attackers have found ways to bypass them. Here’s how to m
 - **Check canaries at random times,** not just at function return.
 - **Combine canaries with other security techniques**.
 
+![image](https://github.com/user-attachments/assets/2e345e1a-43b9-4447-8021-5faab0f23461)
 
+Buffer Overflow is only a problem in languages like C/C++ which do no have runtime bounds checking which check if the array or any buffer has the space for the character being inputted.
