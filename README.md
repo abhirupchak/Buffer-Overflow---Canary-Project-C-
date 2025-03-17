@@ -53,6 +53,6 @@ While canaries help, attackers have found ways to bypass them. Here’s how to m
 ### **2. Smarter Detection**
 
 - **Check canaries at random times,** not just at function return.
-- **Combine canaries with other security techniques** like Control Flow Integrity (CFI).
+- **Combine canaries with other security techniques**.
 
 
