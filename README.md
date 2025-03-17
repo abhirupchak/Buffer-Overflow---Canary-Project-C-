@@ -59,3 +59,10 @@ While canaries help, attackers have found ways to bypass them. Here’s how to m
 
 
 Buffer Overflow is only a problem in languages like C/C++ which do no have runtime bounds checking which check if the array or any buffer has the space for the character being inputted.
+
+![image](https://github.com/user-attachments/assets/d5c47592-21fd-40bd-8bc4-702f7844c09e)
+
+Normally buffer overflow would lead to the program crashing since the overwritten return address does not have any significance in the code but attackers can alter this return address and exploit your code's vulnerability.
+They can access some other function in the code by altering the return address to that function's return address or even inject their own code into return address.
+![image](https://github.com/user-attachments/assets/1464a92c-8755-4b36-906c-a0487ab22d1a)
+
